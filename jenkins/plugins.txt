@@ -1,0 +1,46 @@
+# Required Jenkins plugins for CI/CD pipeline
+# Docker Pipeline plugin - enables Docker commands in pipeline
+docker-workflow:1.32
+
+# GitHub plugin - for GitHub integration and webhooks
+github:1.38.0
+
+# GitHub Branch Source plugin - for GitHub organization/project support
+github-branch-source:2.14.5
+
+# Pipeline plugin - declarative pipeline support
+workflow-aggregator:2.6
+
+# Blue Ocean - modern UI for Jenkins (optional but recommended)
+blueocean:1.27.4
+
+# Credentials Binding plugin - for secure credential management
+credentials-binding:1.28
+
+# Git plugin - Git integration
+git:5.1.0
+
+# Docker plugin - Docker integration
+docker-plugin:1.3.0
+
+# Pipeline Stage View - visualize pipeline stages
+pipeline-stage-view:2.19
+
+# Timestamper - add timestamps to console output
+timestamper:1.18
+
+# Workspace Cleanup - clean workspace after build
+ws-cleanup:0.45
+
+# JUnit plugin - for test result reporting
+junit:1.57
+
+# HTML Publisher - publish HTML reports
+htmlpublisher:1.31
+
+# Build Timestamp - add build timestamps
+build-timestamp:1.0.11
+
+# AnsiColor - colorize console output
+ansicolor:1.0.2
+
